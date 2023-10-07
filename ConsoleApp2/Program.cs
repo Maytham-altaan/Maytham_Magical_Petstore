@@ -22,7 +22,7 @@ namespace Maytham_Magical_Pet
         public void Feed()
         {
             Hunger += 100;
-            Console.WriteLine($"{Name} has been fed!");
+            Console.WriteLine($"{Name} feeded");
         }
 
         public void Exercise()
@@ -30,11 +30,11 @@ namespace Maytham_Magical_Pet
             if (Energy > 100)
             {
                 Energy -= 100;
-                Console.WriteLine($"{Name} has been exercised!");
+                Console.WriteLine($"{Name} exercised!");
             }
             else
             {
-                Console.WriteLine($"{Name} is too tired to exercise!");
+                Console.WriteLine($"{Name} tired to exercise!");
             }
         }
 
@@ -47,7 +47,7 @@ namespace Maytham_Magical_Pet
             }
             else
             {
-                Console.WriteLine($"{Name} is too tired to use its magical power!");
+                Console.WriteLine($"{Name} tired to use its magical power!");
             }
         }
 
