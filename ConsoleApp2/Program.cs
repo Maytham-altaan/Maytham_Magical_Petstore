@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace The_Magical_Pet_Store
+namespace Maytham_Magical_Pet
 {
     public class Maytham_Magical_Pet
     {
